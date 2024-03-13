@@ -1,0 +1,28 @@
+
+.nav-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: transform 200ms;
+}
+
+
+.nav-links:hover{
+  transform: scale(1.3);
+}
+
+.nav-links-focus {
+  text-shadow: 0px 0px 10px #fff;
+}

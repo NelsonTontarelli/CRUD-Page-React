@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --ultramarine-50: #f0f0ff;
+  --ultramarine-100: #e5e4ff;
+  --ultramarine-200: #ceccff;
+  --ultramarine-300: #aaa4ff;
+  --ultramarine-400: #8170ff;
+  --ultramarine-500: #5a37ff;
+  --ultramarine-600: #470fff;
+  --ultramarine-700: #3700ff;
+  --ultramarine-800: #2c00da;
+  --ultramarine-900: #2300a3;
+  --ultramarine-950: #12007a;
+  
+  
+  color: rgba(255, 255, 255, 0.87);
+  background: linear-gradient(90deg, var(--ultramarine-500),var(--ultramarine-800),var(--ultramarine-950));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-color: rgb(112, 112, 112) #141414;
+  scrollbar-width: auto;
+}
+

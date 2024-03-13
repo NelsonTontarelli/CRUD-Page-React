@@ -1,0 +1,132 @@
+.createForm-container {
+  width: 100%;
+}
+
+.createForm-div {
+  display: flex;
+  margin: 50px auto;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(160deg, var(--ultramarine-300), #3d31e3)
+      padding-box,
+    linear-gradient(145deg, transparent 35%, white, rgb(72, 0, 255)) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.createForm-input-container {
+  padding: 20px;
+}
+
+.createForm-input {
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 20px 20px 3px 20px;
+  width: 300px;
+}
+
+.createForm-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #9a7afa;
+}
+
+.user-box {
+  position: relative;
+}
+
+.user-box input {
+  padding: 10px;
+  font-size: 16px;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 35px;
+  padding-top: 27px;
+  font-size: 16px;
+  color: rgb(130, 130, 130);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -30px;
+  left: 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.createForm-title {
+  margin-bottom: 10px;
+}
+
+.div-table-tmp-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-form {
+  color: #ffffff9d;
+  width: 120px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.btn-form:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.save-btn {
+  background: linear-gradient(160deg,  #0004d8 ,#0043c0);
+  box-shadow: inset 0px 0px 40px #bcb7ffb9;
+  margin-left: 20px;
+}
+
+.save-btn:hover{
+  color: #ffdada;
+  box-shadow: none;
+}
+
+.cancel-btn {
+  background: linear-gradient(160deg,  #ad0000 ,#c04600);
+  box-shadow: inset 0px 0px 40px #bcb7ffb9;
+}
+
+.cancel-btn:hover{
+  color: #ffdada;
+  box-shadow: none;
+}
